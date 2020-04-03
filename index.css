@@ -1,116 +1,126 @@
-.page{
-	width : 780px;
-	margin : auto;
-	font-size :16px;
-	font-family :"Source sans Pro", Calibri;
+    .page {
+    width: 780px;
+    margin: auto;
+    font-size: 16px;
+    font-family: "Source sans Pro", Calibri;
 }
 
-.infophoto{
-	height: auto;
-	overflow:auto;
-}
-.info{
-	float:left;
-}
-.photo{
-	float: right;
-}
-.section{
-	margin-bottom: 40px;
-	text-align: justify;
-	overflow:auto;
-}
-strong{
-	font-size: 26px;
-}
-h2{
-	font-size: 28px;
-	color: #3388BB;
-	text-transform: uppercase;
-
+.infophoto {
+    height: auto;
+    overflow: auto;
 }
 
-.titre{
-	font-weight: bold;
-	font-size: 20px;
-
+.info {
+    float: left;
 }
 
-.uneligne{
-	width:auto;
-	height:auto;
-	padding:5px;
+.photo {
+    float: right;
+}
+
+.section {
+    margin-bottom: 40px;
+    text-align: justify;
+    overflow: auto;
+}
+
+strong {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 45px;
+    color: #3388BB;
+    text-transform: uppercase;
+}
+
+.titre {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.uneligne {
+    width: auto;
+    height: auto;
+    padding: 5px;
 }
 
 .date {
-	display: block;
-	width:100%;
-	font-weight: bold;
-	font-size: 20px;
-}
-table {border-collapse :collapse;
-}
-tr,td{
-	border: 3px solid black;
-}
-td{padding-right:55px;
-	padding-top: 2px;
-	padding-bottom: 7px;
-	padding-left:7px;
-}
-body{
-background-color:#ECD0B7;
-}
-#lol{
-	display: inline-block;
-	border: solid 2px black;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-#tete h1{
-	color : black;
-
-}
-.special{
-	color:brown;
-	text-align: center;
-}
-.montexte{
-	padding-left: 60px;
-
-
-}
-.video{
-border-width: 5px;
-border-style:solid;
-border-color:black;
-
-}
-.centerit{
-	text-align: center;
-
+table {
+    border-collapse: collapse;
 }
 
-.teste3 input{
-	margin : 5px;
-	text-align: center;
+tr,
+td {
+    border: 3px solid black;
 }
-#specialcom{
-	margin : 10px;
-}
-textarea{
-	font-size: 1em;
-	text-align: center;
-	font-family :"Source sans Pro", Calibri, Tahoma, sans-serif;
-	width: 300px;
-	height: 150px;
 
+td {
+    padding-right: 55px;
+    padding-top: 2px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+}
+
+body {
+    background-color: #ECD0B7;
+}
+
+#lol {
+    display: inline-block;
+    border: solid 2px black;
+}
+
+#tete h1 {
+    color: black;
+}
+
+.special {
+    color: brown;
+    text-align: center;
+}
+
+.montexte {
+    padding-left: 60px;
+}
+
+.video {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.centerit {
+    text-align: center;
+}
+
+.teste3 input {
+    margin: 5px;
+    text-align: center;
+}
+
+#specialcom {
+    margin: 10px;
+}
+
+textarea {
+    font-size: 1em;
+    text-align: center;
+    font-family: "Source sans Pro", Calibri, Tahoma, sans-serif;
+    width: 300px;
+    height: 150px;
 }
 
 @media all and (max-width: 480px) {
-.photo {
-	display: none;
-	}
-table
-{ 
-display: none; 
-}
+    .photo {
+        display: none;
+    }
+    table {
+        display: none;
+    }
